@@ -13,6 +13,7 @@ public class LaunchSpell : MonoBehaviour
     void Start()
     {
         rigid = GetComponent<Rigidbody>();
+        Destroy(gameObject, 2); //destroy it after 2 seconds
     }
 
 
